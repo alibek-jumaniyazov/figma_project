@@ -1,0 +1,47 @@
+.mainTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 320px;
+    padding: 30px;
+}
+
+.mainTop-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+
+}
+
+.mainTop-info h1 {
+    width: 553px;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 125%;
+    color: #252626;
+}
+
+.mainTop-info p {
+    width: 523px;
+    height: 68px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 160%;
+    color: #707273;
+}
+
+.btn {
+    padding: 15px 35px;
+    gap: 10px;
+    width: 190px;
+    height: 62px;
+    background: #35AFBF;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 150%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
