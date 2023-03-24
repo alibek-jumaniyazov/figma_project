@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 320px;
+    gap: 150px;
     padding: 30px;
 }
 
@@ -43,5 +43,42 @@
     font-size: 21px;
     line-height: 150%;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+.mainImgg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background-image: url(../images/Background\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 501px;
+}
+
+.mainImgg h1 {
+    width: 382px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.mainImgg p{
+    width: 765px;
+    letter-spacing: 1px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mainImgg img{
     cursor: pointer;
 }

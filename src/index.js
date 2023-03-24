@@ -5,6 +5,7 @@ import './styles/app.css';
 import './styles/header.css';
 import './styles/mainTop.css';
 import './styles/main.css';
+import './styles/footer.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
